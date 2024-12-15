@@ -12,7 +12,7 @@ const Remede: React.FC = () => {
       <ProjectTitle>ZOLL remedē® System</ProjectTitle>
 
       <OverviewBlock>
-        <OverviewImage image={respicardiaImage} />
+        <OverviewImage image={respicardiaImage} zoom/>
         <ProjectText>
           description="
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit id eros eget ultrices. 
