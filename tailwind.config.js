@@ -15,7 +15,7 @@ export default {
         xl: '2rem',
         '2xl': '2rem',
       },
-    }
+    },
   },
   plugins: [],
 }
