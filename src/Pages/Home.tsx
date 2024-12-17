@@ -2,7 +2,9 @@ import OverviewBlock from "../Components/OverviewBlock"
 import OverviewImage from "../Components/OverviewImage"
 import OverviewText from "../Components/OverviewText"
 
-import respicardiaImage from '/DSC_0216.jpg'
+import respicardiaImage from '/ZOLLRemede.png'
+import vivaImage from '/Viva.png'
+import reellImage from '/ReellHinge1.png'
 
 const Home: React.FC = () => {
 
@@ -17,17 +19,25 @@ const Home: React.FC = () => {
       <OverviewBlock link="projects/remede">
         <OverviewImage image={respicardiaImage} />
         <OverviewText 
-          title="ZOLL remedē® System"
-          description="Interactive training tool for implantation of the remedē® System."
+          title="ZOLL remedē System"
+          description="Interactive training tool for implantation of the remedē System."
           tags="Unity"/>
       </OverviewBlock>
 
-      <OverviewBlock link="test">
-        <OverviewImage image={respicardiaImage} />
+      <OverviewBlock link="projects/viva">
+        <OverviewImage image={vivaImage} />
         <OverviewText 
-          title="ZOLL remedē® System"
-          description="Interactive training tool for implantation of the remedē® System."
-          tags="Unity"/>
+          title="VIVA"
+          description="Virtual tradeshow"
+          tags="Babylon.js"/>
+      </OverviewBlock>
+
+      <OverviewBlock link="projects/reell">
+        <OverviewImage image={reellImage} />
+        <OverviewText 
+          title="Reell Hinge Selection Guide"
+          description=""
+          tags="React Native / Ruby on Rails"/>
       </OverviewBlock>
     </>
   )
