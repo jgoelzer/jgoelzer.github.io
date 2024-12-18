@@ -5,6 +5,7 @@ import OverviewText from "../Components/OverviewText"
 import respicardiaImage from '/ZOLLRemede.png'
 import vivaImage from '/Viva.png'
 import reellImage from '/ReellHinge1.png'
+import waterousImage from '/Waterous1.png'
 
 const Home: React.FC = () => {
 
@@ -38,6 +39,14 @@ const Home: React.FC = () => {
           title="Reell Hinge Selection Guide"
           description=""
           tags="React Native / Ruby on Rails"/>
+      </OverviewBlock>
+
+      <OverviewBlock link="projects/waterous">
+        <OverviewImage image={waterousImage} />
+        <OverviewText 
+          title="Waterous Endurance Interactive"
+          description="Interactive product visualization for the Endurance fire pumps"
+          tags="Unity"/>
       </OverviewBlock>
     </>
   )

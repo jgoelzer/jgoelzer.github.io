@@ -10,6 +10,7 @@ import ProjectLayout from './Pages/ProjectLayout.tsx';
 import Remede from './Pages/Projects/Remede.tsx';
 import Viva from './Pages/Projects/Viva.tsx';
 import ReellHinge from './Pages/Projects/ReellHinge.tsx';
+import Waterous from './Pages/Projects/Waterous.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="remede" element={<Remede />} />
           <Route path="viva" element={<Viva />} />
           <Route path="reell" element={<ReellHinge />} />
+          <Route path="waterous" element={<Waterous />} />
         </Route>
       </Routes>
       <Footer />
