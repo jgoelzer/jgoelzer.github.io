@@ -48,7 +48,7 @@ const Remede: React.FC = () => {
         <ProjectText>
           Six different vein structures were developed which highlight the most common anatomical presentations.
           <br/><br/>
-          Anatomy callouts were implemented to asssit with identification and training.
+          Anatomy callouts were implemented to assist with identification and training.
         </ProjectText>
       </OverviewBlock>
 
